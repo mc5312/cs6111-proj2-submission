@@ -72,7 +72,9 @@ Standard Libraries
 How to Run Program|
 -------------------
 
-IMPORTANT: Files (1-5) and the provided folder "pretrained_spanbert" have to be placed in the same directory.
+IMPORTANT: 
+- Files (1-5) have to be placed in the same directory as the pretrained model.
+- The easiest way is to put files (1-5) into the SpanBERT folder.
 
 python3 main.py [-spanbert|-gemini] <google api key> <google engine id> <google gemini api key> <r> <t> <q> <k>
 
